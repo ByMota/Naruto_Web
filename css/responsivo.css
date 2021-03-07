@@ -1,0 +1,72 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+}
+
+@media only screen and (max-width: 787px) {
+  .header {
+    padding-bottom: 0px;
+    text-align: center;
+    margin-top: -35px;
+  }
+
+  .imgHome {
+    margin-left: 120px;
+  }
+
+  .menu {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .menu ul li {
+    margin: 0;
+  }
+
+  .menu ul li a {
+    border: 2px solid #fff;
+    width: 140px;
+    display: block;
+    float: left;
+  }
+
+  .menu ul li a:hover {
+    border-color: black;
+  }
+
+  .introducao {
+    height: 660px;
+    margin-top: 0px;
+    padding-top: 110px;
+  }
+
+  .sobre_desc {
+    margin-left: -10px;
+  }
+
+  .question label {
+    width: 249px;
+  }
+
+  .plus {
+    margin: 0;
+  }
+
+  .portfolio li {
+    margin-left: -30px;
+  }
+
+  .disco_animation {
+    display: none;
+  }
+
+  textarea {
+    min-width: 300px;
+    resize: none;
+  }
+
+  iframe {
+    min-width: 300px;
+  }
+  .disco_animation {
+    display: none;
+  }
+}
