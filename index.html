@@ -1,165 +1,197 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Naruto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      class="img-icon"
+      rel="icon"
+      type="imagem/svg"
+      href="./Img/konoha.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Naruto</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-  <link class="img-icon" rel="icon" type="imagem/svg" href="./Img/konoha.png" />
-
-
-  <link rel="stylesheet" href="./css/style-naruto.css">
-
-  <script src='main.js'></script>
-</head>
-
-<body>
-  <header>
-    <!-- Menu -->
+  <body>
     <div class="home">
+      <header class="header">
+        <h1>naruto</h1>
+        <nav id="nav" class="navbar">
+          <button id="btn-mobile">
+            <span class="hamburguer"></span>
+          </button>
+          <ul id="navbar-menu">
+            <li><a href="#C1">historia</a></li>
+            <li><a href="#C2">personagens</a></li>
+            <li><a href="#C3">kages</a></li>
+            <li><a href="#C4">elementos</a></li>
+          </ul>
+        </nav>
+      </header>
 
-      <div class="menu">
-        <p>naruto</p>
-
-        <ul>
-          <li> <a href="#C1">historia</a> </li>
-          <li><a href="#C2">personagens</a> </li>
-          <li><a href="#C3">kages</a> </li>
-          <li><a href="#C4">elementos</a> </li>
-        </ul>
-
-      </div>
-      <div class="container historia">
-
-        <a id="C1"></a>
+      <section id="C1" class="container-historia">
         <h1>historia</h1>
-        <p>Naruto é uma série de mangá escrita e ilustrada por Masashi Kishimoto, que conta a história de Naruto Uzumaki, um jovem ninja que constantemente procura por reconhecimento e sonha em se tornar Hokage, o ninja líder de sua vila. A história é dividida em duas partes, a primeira parte se passa nos anos da pré-adolescência de Naruto, e a segunda parte se passa em sua adolescência. A série é baseada em dois mangás one-shots de Kishimoto: Karakuri (1995) e Naruto (1997). A história de Naruto continua com o seu filho, Boruto Uzumaki em Boruto: Naruto Next Generations.</p>
-      </div>
-    </div>
-  </header>
-
-
-  <div class="personagens">
-    <a id="C2"></a>
-    <h1>personagens</h1>
-
-    <div class="personagens-box">
-      <div class="naruto">
-        <img src="./Img/naruto.png" alt="">
-        <p>Naruto Uzumaki é um shinobi de Konohagakure, também sendo a reencarnação atual de Asura e o protagonista homônimo da franquia Naruto. Ele se tornou o jinchūriki de Kurama no dia de seu nascimento, um destino que o levou a ser condenado ao ostracismo e ser negligenciado por toda a aldeia durante toda a sua infância. Depois de entrar para o Time Kakashi, Naruto trabalhou duro para ganhar o respeito e o reconhecimento da aldeia, com o sonho de se tornar Hokage.</p>
-      </div>
-
-      <div class="sakura">
-        <img src="./Img/sakura.png" alt="">
-        <p>Sakura Uchiha é uma kunoichi de nível jōnin do clã Haruno, de Konohagakure. Ela é designada como um membro do Time Kakashi, mas rapidamente encontra-se mal preparada para os deveres de um ninja e as complicações das vidas de seus companheiros de equipe. Treinando sob a tutela de sua mestra, Tsunade.</p>
-      </div>
-
-      <div class="sasuke">
-        <img src="./Img/sasuke.png" alt="">
-        <p>Sasuke Uchiha é um dos últimos membros sobreviventes do clã Uchiha de Konohagakure, além de ser a reencarnação atual de Indra. Ele se tornou um shinobi para que pudesse algum dia ficar forte o suficiente para se vingar contra o seu irmão mais velho, Itachi, que tinha massacrado todo o seu clã. Inicialmente, um membro do Time Kakashi de Konoha, Sasuke desertou da aldeia para obter poder com Orochimaru, e mais tarde também se juntou a Akatsuki, tornando-se um criminoso internacional no processo.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- kages -->
-
-  <div class="kages">
-    <a id="C3"></a>
-    <h1>KAges</h1>
-
-    <div class="linha-1">
-      <div class="hokage">
-        <h2>hokage</h2>
-        <img src="./Img/Chapeau_Hiruzen_Sarutobi.svg.png" alt="hokage">
-        <p>Um dos países mais poderosos do mundo e o lar dos personagens principais de Naruto. O País do Fogo foi um dos primeiros países a fazer uma aliança com os ninjas e criar uma Vila Oculta. </p>
-      </div>
-
-      <div class="mizukage">
-        <h2>mizukage</h2>
-        <img src="./Img/chapeu_Mizukage.png" alt="mizukage">
-        <p>O país da água é constituído por várias ilhas relativamente distantes do continente, onde se encontram as outras quatro grandes nações ninjas. É uma terra de clima fresco, porém, em certas partes, a temperatura é bem mais baixa.</p>
-      </div>
-
-      <div class="kazekage">
-        <h2>kazekage</h2>
-        <img src="./Img/Chapeau_kazekage.svg.png" alt="kazekages">
-        <p>Um país de clima predominantemente desértico e com baixa produtividade. Devido às poucas chuvas, a sociedade se concentra em pequenas vilas construídas em oásis. Atualmente possui boas relações com suas nações vizinhas.</p>
-      </div>
+        <p>
+          Naruto é uma série de mangá escrita e ilustrada por Masashi Kishimoto,
+          que conta a história de Naruto Uzumaki, um jovem ninja que
+          constantemente procura por reconhecimento e sonha em se tornar Hokage,
+          o ninja líder de sua vila. A história é dividida em duas partes, a
+          primeira parte se passa nos anos da pré-adolescência de Naruto, e a
+          segunda parte se passa em sua adolescência. A série é baseada em dois
+          mangás one-shots de Kishimoto: Karakuri (1995) e Naruto (1997). A
+          história de Naruto continua com o seu filho, Boruto Uzumaki em Boruto:
+          Naruto Next Generations.
+        </p>
+      </section>
     </div>
 
+    <section id="C2" class="container-personagens">
+      <h1>personagens</h1>
 
-    <div class="linha-2">
-      <div class="raikage">
-        <h2>raikage</h2>
-        <img src="./Img/Chapeau_Raikage.png" alt="raikage">
-        <p>Em uma península ao nordeste do continente se encontra o País do Raio, uma região montanhosa com um clima propício para a formação de tempestades elétricas. </p>
+      <div class="personagens">
+        <div class="personagens-item naruto">
+          <img src="./Img/naruto.png" alt="" />
+          <p>
+            Naruto Uzumaki é um shinobi de Konohagakure, também sendo a
+            reencarnação atual de Asura e o protagonista homônimo da franquia
+            Naruto. Ele se tornou o jinchūriki de Kurama no dia de seu
+            nascimento, um destino que o levou a ser condenado ao ostracismo e
+            ser negligenciado por toda a aldeia durante toda a sua infância.
+            Depois de entrar para o Time Kakashi, Naruto trabalhou duro para
+            ganhar o respeito e o reconhecimento da aldeia, com o sonho de se
+            tornar Hokage.
+          </p>
+        </div>
+
+        <div class="personagens-item sakura">
+          <img src="./Img/sakura.png" alt="" />
+          <p>
+            Sakura Uchiha é uma kunoichi de nível jōnin do clã Haruno, de
+            Konohagakure. Ela é designada como um membro do Time Kakashi, mas
+            rapidamente encontra-se mal preparada para os deveres de um ninja e
+            as complicações das vidas de seus companheiros de equipe. Treinando
+            sob a tutela de sua mestra, Tsunade.
+          </p>
+        </div>
+
+        <div class="personagens-item sasuke">
+          <img src="./Img/sasuke.png" alt="" />
+          <p>
+            Sasuke Uchiha é um dos últimos membros sobreviventes do clã Uchiha
+            de Konohagakure, além de ser a reencarnação atual de Indra. Ele se
+            tornou um shinobi para que pudesse algum dia ficar forte o
+            suficiente para se vingar contra o seu irmão mais velho, Itachi, que
+            tinha massacrado todo o seu clã. Inicialmente, um membro do Time
+            Kakashi de Konoha, Sasuke desertou da aldeia para obter poder com
+            Orochimaru, e mais tarde também se juntou a Akatsuki, tornando-se um
+            criminoso internacional no processo.
+          </p>
+        </div>
       </div>
+    </section>
 
-      <div class="tsuchikage">
-        <h2>tsuchikage</h2>
-        <img src="./Img/Chapeau_Tsuchikage.png" alt="tsuchikage">
-        <p> Umas das regiões mais misteriosas até então. O País da Terra fica localizado no noroeste do continente, em uma região predominantemente rochosa e árida. </p>
+    <section id="C3" class="container-kages">
+      <h1>kages</h1>
+      <div class="kages">
+        <div class="kages-item hokage">
+          <h3>hokage</h3>
+          <img src="./Img/Chapeau_Hiruzen_Sarutobi.svg.png" alt="hokage" />
+          <p>
+            Um dos países mais poderosos do mundo e o lar dos personagens
+            principais de Naruto. O País do Fogo foi um dos primeiros países a
+            fazer uma aliança com os ninjas e criar uma Vila Oculta.
+          </p>
+        </div>
+        <div class="kages-item mizukage">
+          <h3>mizukage</h3>
+          <img src="./Img/chapeu_Mizukage.png" alt="mizukage" />
+          <p>
+            O país da água é constituído por várias ilhas relativamente
+            distantes do continente, onde se encontram as outras quatro grandes
+            nações ninjas. É uma terra de clima fresco, porém, em certas partes,
+            a temperatura é bem mais baixa.
+          </p>
+        </div>
+        <div class="kages-item kazekage">
+          <h3>kazekage</h3>
+          <img src="./Img/Chapeau_kazekage.svg.png" alt="kazekages" />
+          <p>
+            Um país de clima predominantemente desértico e com baixa
+            produtividade. Devido às poucas chuvas, a sociedade se concentra em
+            pequenas vilas construídas em oásis. Atualmente possui boas relações
+            com suas nações vizinhas.
+          </p>
+        </div>
+        <div class="kages-item raikage">
+          <h3>raikage</h3>
+          <img src="./Img/Chapeau_Raikage.png" alt="raikage" />
+          <p>
+            Em uma península ao nordeste do continente se encontra o País do
+            Raio, uma região montanhosa com um clima propício para a formação de
+            tempestades elétricas.
+          </p>
+        </div>
+        <div class="kages-item tsuchikage">
+          <h3>tsuchikage</h3>
+          <img src="./Img/Chapeau_Tsuchikage.png" alt="tsuchikage" />
+          <p>
+            Umas das regiões mais misteriosas até então. O País da Terra fica
+            localizado no noroeste do continente, em uma região
+            predominantemente rochosa e árida.
+          </p>
+        </div>
       </div>
-    </div>
-
-  </div>
-
-  <!-- elementos -->
-
-  <div class="elementos">
-    <a id="C4"></a>
-    <h1>Elementos</h1>
-
-    <div class="linha-1">
-
-      <div class="fogo">
-        <h2>fogo</h2> <img src="./Img/fogo.png" alt="">
-        <p> Cuja natureza cria ninjutsu de Liberação de Fogo (火遁, Katon), que é forte contra Vento, mas fraco contra Água.</p>
+    </section>
+    <section id="C4" class="container-elementos">
+      <h1>Elementos</h1>
+      <div class="elementos">
+        <div class="elementos-item fogo">
+          <h3>fogo</h3>
+          <img src="./Img/fogo.png" alt="" />
+          <p>
+            Cuja natureza cria ninjutsu de Liberação de Fogo (火遁, Katon), que
+            é forte contra Vento, mas fraco contra Água.
+          </p>
+        </div>
+        <div class="elementos-item agua">
+          <h3>agua</h3>
+          <img src="./Img/agua.png" alt="" />
+          <p>
+            Cuja natureza cria ninjutsu de Liberação de Água (水遁, Suiton), que
+            é forte contra Fogo, mas fraco contra Terra.
+          </p>
+        </div>
+        <div class="elementos-item vento">
+          <h3>vento</h3>
+          <img src="./Img/vento.png" alt="" />
+          <p>
+            Cuja natureza cria ninjutsu de Liberação de Vento (風遁, Fūton), que
+            é forte contra Trovão, mas fraco contra Fogo.
+          </p>
+        </div>
+        <div class="elementos-item raio">
+          <h3>raio</h3>
+          <img src="./Img/raio.png" alt="" />
+          <p>
+            Cuja natureza cria ninjutsu de Liberação de Relâmpago (雷遁,
+            Raiton), que é forte contra Terra, mas fraco contra Vento.
+          </p>
+        </div>
+        <div class="elementos-item terra">
+          <h3>terra</h3>
+          <img src="./img/terra.png" alt="" />
+          <p>
+            Cuja natureza cria ninjutsu de Liberação de Terra (土遁, Doton), que
+            é forte contra Água, mas fraco contra Trovão.
+          </p>
+        </div>
       </div>
-
-      <div class="agua">
-        <h2>agua</h2>
-        <img src="./Img/agua.png" alt="">
-        <p>Cuja natureza cria ninjutsu de Liberação de Água (水遁, Suiton), que é forte contra Fogo, mas fraco contra Terra.</p>
-      </div>
-
-      <div class="vento">
-        <h2>vento</h2>
-        <img src="./Img/vento.png" alt="">
-        <p>Cuja natureza cria ninjutsu de Liberação de Vento (風遁, Fūton), que é forte contra Trovão, mas fraco contra Fogo.</p>
-      </div>
-
-    </div>
-
-
-
-    <div class="linha-2">
-
-      <div class="raio">
-        <h2>raio</h2>
-        <img src="./Img/raio.png" alt="">
-        <p>Cuja natureza cria ninjutsu de Liberação de Relâmpago (雷遁, Raiton), que é forte contra Terra, mas fraco contra Vento.</p>
-      </div>
-
-      <div class="terra">
-        <h2>terra</h2>
-        <img src="./Img/terra.png" alt="">
-        <p> Cuja natureza cria ninjutsu de Liberação de Terra (土遁, Doton), que é forte contra Água, mas fraco contra Trovão.</p>
-      </div>
-
-    </div>
-  </div>
-
-  <footer>
-    <p> Vinicius Mota - 2020</p>
-  </footer>
-
-</body>
-
-
-
-</html>
-
+    </section>
+    <footer class="footer">
+      <p>Vinicius Mota - 2020</p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
